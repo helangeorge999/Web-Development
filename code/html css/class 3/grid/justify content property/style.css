@@ -1,0 +1,10 @@
+.grid-container{
+    display : grid;
+    justify-content: space-around;
+    background-color: yellowgreen;
+}
+
+.grid-item{
+    background-color: silver;
+    border: 1px, solid;
+}

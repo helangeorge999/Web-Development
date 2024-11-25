@@ -1,0 +1,23 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightgreen;
+}
+.grid-container1{
+    display: grid1;
+    grid-template-rows: auto auto auto;
+    background-color: yellow;
+}
+
+.grid-item{
+    background-color: white;
+    border: 1px, solid white;
+    padding: 20px ;
+    margin: 20px;
+}
+.grid-item1{
+    background-color:wheat;
+    border: 1px, solid black;
+    padding: 20px ;
+    margin: 20px;
+}
