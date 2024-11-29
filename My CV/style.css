@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #49e48f;
+  }
+  
+  header {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+    background-color: #49e48f;   
+  }
+  
+  .profile-container {
+    padding: 1px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #0c0c00;
+  }
+  
+  h1, h2 {
+    color: #444;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  .badge {
+    background: #007BFF;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 5px;
+  }
+  
+  /* Project Styles */
+  .projects .project {
+    margin-bottom: 10px;
+  }
+  
+  .projects .project a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #39024d;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  /* Responsive Design
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .profile-pic {
+      width: 100px;
+      height: 150px;
+    }
+  } */
+ 
+.experience{
+    table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+  
+      th, td {
+        border: 2px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f6eeee;
+      }
+  
+      tr{
+        background-color: #e6dcdc;
+        
+      }
+  
+      tr:hover {
+        background-color: #f3e7e7;
+      }
+}
+/* .hobbies{
+   
+    
+} */
+p{
+    text-align:left;
+}
+
+
+/* Default styles for desktop (large screens) */
+body {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles for tablets and smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
